@@ -1,0 +1,26 @@
+{
+  "name": "113",
+  "main": "src/index.js",
+  "compatibility_date": "2026-06-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "triggers": {
+    "crons": [
+      "* * * * *"
+    ]
+  },
+  "vars": {
+    "RUNTIME_VERSION": "0.1.0",
+    "WECHAT_DAEMON_ENABLED": "1"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "ai-phone-personal-runtime",
+      "database_id": "bc34ada9-a582-4a88-8a19-79ff1c025dd2",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
